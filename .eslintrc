@@ -10,6 +10,8 @@
   "plugins": ["cypress", "react-hooks"],
   "rules": {
     "cypress/no-assigning-return-values": "error",
+    "linebreak-style": ["error", "windows"],
+    "quotes": [2, "single", { "avoidEscape": true, "allowTemplateLiterals": true }],
     "cypress/no-unnecessary-waiting": "error",
     "cypress/assertion-before-screenshot": "warn",
     "cypress/no-force": "warn",
